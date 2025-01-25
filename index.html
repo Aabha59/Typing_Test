@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing_Test...</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="letters">
+            <div class="set">
+                <div>
+                    <img src="img/a.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/b.webp" alt="">
+                </div>
+                <div>
+                    <img src="img/c.svg" alt="">
+                </div>
+                <div>
+                    <img src="img/d.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/e.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/f.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/g.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/h.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/i.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/j.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/k.avif" alt="">
+                </div>
+                <div>
+                    <img src="img/l.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/m.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/n.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/o.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/p.avif" alt="">
+                </div>
+                <div>
+                    <img src="img/q.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/r.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/s.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/t.webp" alt="">
+                </div>
+                <div>
+                    <img src="img/u.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/v.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/w.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/x.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/y.jpg" alt="">
+                </div>
+                <div>
+                    <img src="img/z.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <img src="img/pinkbg3.jpg" class="bg">
+        <!-- <img src="img/Welcome.webpS" class="girl"> -->
+        <!-- <img src="img/b.jpg" class="girl">
+        <img src="img/h.png" class="girl"> -->
+        <!-- <img src="img/a.jpg" class="trees"> -->
+        <div class="login">
+            <div id="selection-screen">
+                <h2>Typing Practice</h2>
+                <div class="level-buttons">
+                    <label for="level">Choose Level:</label>
+                    <select id="level">
+                        <option value="middle">Middle Level (A-L)</option>
+                        <option value="upper">Upper Level (Q-P)</option>
+                        <option value="down">Down Level (Z-M)</option>
+                        <option value="all">All Keys with Symbols</option>
+                    </select>
+        
+                    <label for="word-count">Number of Words:</label>
+                    <input type="text" id="word-count" value="150" min="50" max="1000">
+        
+                    <button onclick="startPractice()" id="btn">Start Practice</button>
+                </div>
+            </div>
+        
+            <div class="message" id="message"></div>
+            <div id="practice-screen" style="display: none;">
+                <div class="practice-area">
+                    <div class="prompt-area" id="prompt-area"></div>
+                </div>
+            </div>
+        
+        </div>
+        <div id="stats-panel" class="stats-panel" draggable="true">
+            <div>Total Words: <span id="total-words">0</span></div>
+            <div>Correct Inputs: <span id="correct-inputs">0</span></div>
+            <div>Wrong Inputs: <span id="wrong-inputs">0</span></div>
+            <div class="timer">Time: <span id="timer">0:00</span></div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
